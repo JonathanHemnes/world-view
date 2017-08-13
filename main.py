@@ -11,6 +11,7 @@ api = tweepy.API(auth)
 source = 'dscovr_epic'
 
 tweets = api.user_timeline(screen_name = source, count = 24)
+tweets.sort(key=lambda t: t.created_at)
 
 images = []
 
