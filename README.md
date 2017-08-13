@@ -5,7 +5,8 @@
 
 ## Setup
 ### Add constants.py to the root of your project with the following fields filled out from your twitter api creds
-```class Constants:
+```
+class Constants:
     consumer_key = 'CONSUMER KEY GOES HERE'
     consumer_secret = 'CONSUMER SECRET GOES HERE'
     access_token = 'ACCESS TOKEN GOES HERE'
